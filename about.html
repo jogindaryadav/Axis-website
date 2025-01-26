@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg-[#06bbcc] dark:bg-black bg-opacity-20 dark:bg-opacity-90 px-4 py-2 w-[100%] h-[11vh] fixed flex flex-row justify-between">
+        <img src="./image/axis copy.jpg" class="rounded-full  h-[10vh]">
+        <div class="h-[12vh] place-items-center">
+            <ul class="flex flex-row gap-[35px] items-center">
+                <li><a href="index.html" class="hover:text-[#06bbcc]">HOME</a></li>
+                <li><a href="about.html" class="hover:text-[#06bbcc]">ABOUT</a></li>
+                <li><a href="#courses" class="hover:text-[#06bbcc]">COURSES</a></li>
+                <li>
+                  <div class="relative group">
+                    <button class="text-black px-4 py-2 rounded">
+                      PAGES
+                    </button>
+                    <!-- Dropdown Menu -->
+                    <div class="absolute hidden group-hover:block bg-white shadow-lg rounded mt-2">
+                      <a href="testimonial.html" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">TESTINOMIAL</a>
+                      <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">OUR TEAM</a>
+                      <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">TEST</a>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="contact.html" class="hover:text-[#06bbcc]">CONTACT</a></li>
+                <button class="bg-[#06bbcc] text-white px-4 py-2 rounded-full flex flex-row gap-[5px]"><i class="fa fa-phone-square py-1" aria-hidden="true"></i>9813520987</button>
+            </ul>
+            <!-- <div id="icon w-[30%]"><img src="./image/moon.png" ></div> -->
+        </div>
+    </div>    
+
+       <!-- About section -->
+       <div class=" flex md:flex-row flex-col h-auto w-[100%] px-[8vw] py-[5vh] gap-[4vw] pt-[20vh]">
+        <img src="./image/aboutimg.jpg" class="bg-cover h-[70vh] w-[50%] md:w-[100%]">
+        <div class="">
+          <div class="flex">
+            <h3 class="font-bold text-[#06bbcc] mx-[10px]">ABOUT US</h3>
+            <div class="my-[7px] flex flex-col gap-[6px]">
+                <div class="bg-[#06bbcc] w-[3vw] h-[1.5px]"></div>
+                <div class="bg-[#06bbcc] w-[5vw] h-[2.5px]"></div>
+            </div>
+           </div>
+          <h1 class="font-bold text-xl py-[8px]">Axis Educational and Technical Institute</h1>
+          <p>Axis Educational and Technical Institute, located in Siddharthanagar, stands out as a prominent hub for quality education and technical training.</p><br>
+          <p> Known for its commitment to fostering learning and skill development, the institute offers a wide range of courses designed to cater to students and professionals seeking academic excellence and technical expertise.</p>
+          <div class="grid grid-cols-2 my-[30px]">
+            <div class="flex flex-col gap-[10px]">
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i>Skilled Instructors</p>
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i> Online Classes</p>
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i> International Certificate</p>
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i> Practical Classes</p>
+            </div>
+            <div class="flex flex-col gap-[10px]">
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i>Acadmic visit</p>
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i>Digital Classes</p>
+                <p class="text-gray-500"><i class="fa fa-arrow-right text-primary me-2 text-[#06bbcc]"></i>Friendly Teacher</p>
+            </div>
+          </div>
+          <button  id="read-more-btn" class="bg-[#06bbcc] text-white px-[30px] py-[13px] font-bold">Read More</button>
+        </div>
+    </div>
+        <!-- pre-footer -->
+        <div class="px-[8vw] py-[10vh] bg-[#110c3d] w-[100%] h-[50vh]">
+            <div class="grid grid-cols-4">
+                <div class="grid p-[10px]">
+                <p class="text-white text-xl pb-[20px]">Quick Link</p>
+                <ul class="grid text-white gap-1">
+                    <a href="#about"><i class="fa fa-chevron-right text-white"></i>About Us</a>
+                    <a href="contact.html"><i class="fa fa-chevron-right text-white"></i>Contact Us</a>
+                    <a href="#privacy"><i class="fa fa-chevron-right text-white"></i>Privacy Policy</a>
+                    <a href="#tearm&condition"><i class="fa fa-chevron-right text-white"></i>Terms & Condition</a>
+                    <a href="#help"><i class="fa fa-chevron-right text-white"></i>FAQs & Help</a>
+                </ul>
+                </div>
+                <div class="grid p-[10px] text-white">
+                    <p class=" text-white text-xl">Contact</p>
+                    <p><i class="fa-sharp fa-solid fa-location-dot"></i>Siddharthanagar-6 Rupandehi</p>
+                    <p class="text-sm"><i class="fa-solid fa-phone">+977981352098</i></p>
+                    <p><i class="fa fa-envelope me-3"></i>codeaddict00@gmail.com</p>       
+                    <div class="d-flex p-2">
+                        <a href="https://x.com/home" class="btn btn-outline-light btn-social border-solid border-2 border-white rounded-full text-white text-center p-1 mx-0.5">
+                            <i class="fab fa-twitter w-[18px] h-[20px]"></i>
+                        </a>
+                        <a href="" class="btn btn-outline-light btn-social border-solid border-2 border-white rounded-full text-center p-1 mx-0.5">
+                            <i class="fab fa-facebook-f w-[19px] h-[22px]"></i>
+                        </a> 
+                        <a href="https://www.youtube.com/@jogindarcode" class="btn btn-outline-light btn-social border-solid border-2 border-white rounded-full text-center p-1 mx-0.5">
+                            <i class="fab fa-youtube w-[17px] h-[20px]"></i>
+                        </a>
+                        <a href="" class="btn btn-outline-light btn-social border-solid border-2 border-white rounded-full text-center p-1 mx-0.5">
+                            <i class="fab fa-linkedin-in w-[23px] h-[20px]"></i>
+                        </a>
+                    </div>     
+                </div>
+                <div class="grid p-[10px]">
+                <p class="text-white text-xl pb-[20px]">Gallery</p>
+                <div class="grid grid-cols-3 grid-rows-2 gap-1">
+                    <div class="col-start-1 row-start-1 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                    <div class="col-start-2 row-start-1 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                    <div class="col-start-3 row-start-1 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                    <div class="col-start-1 row-start-2 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                    <div class="col-start-2 row-start-2 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                    <div class="col-start-3 row-start-2 col-span-1 row-span-1">
+                      <img src="https://images.pexels.com/photos/5212351/pexels-photo-5212351.jpeg?auto=compress&cs=tinysrgb&w=600">
+                    </div>
+                  </div>         
+                </div>
+                <div class="grid p-[10px]">
+                <p class="text-white text-xl pb-[20px]">Newsletter</p>
+                <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="flex flex-row">
+                    <input type="email" class="px-[5px]" placeholder="Your email">
+                    <button class="text-white bg-[#06bbcc] font-bold px-[5px] py-[5px] rounded-2xl">SignUp</button>
+                </div>
+                </div>
+            </div>
+            <div class="w-[100%] h-[1px] bg-gray-600"></div>
+        </div> 
+</body>
+</html>

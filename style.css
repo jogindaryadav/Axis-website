@@ -1,0 +1,53 @@
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cc06b5;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none; 
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #24c6e2;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .swiper-container {
+    /* Ensure the swiper container doesn't take more than necessary */
+    max-width: 100%;  /* Ensure no stretching beyond available space */
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    /* Limit the width of each slide so it doesn't stretch to full width */
+    flex: 0 0 auto;  /* Prevent slides from expanding to full width */
+    width: auto;     /* Auto width based on content */
+    max-width: 300px; /* Set a max width for each card (or adjust as needed) */
+  }
+  
+  /* Optional: Additional styling for the swiper wrapper if needed */
+  .swiper-wrapper {
+    display: flex;  /* Ensure that swiper slides are aligned horizontally */
+    gap: 20px;  /* Space between slides */
+  }
+  
